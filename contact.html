@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Shiv Singh</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,500;1,500&family=Saira:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="Portfolio One/about.html"></a>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span class="span"> Shiv Singh </span>
+            </div>    
+
+            <div class="links">
+
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <a href="index.html"> Home </a>
+                </div>
+
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <a href="about.html"> About </a>
+                </div>
+
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <a href="project.html"> Projects </a>
+                </div>
+
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <a href="contact.html"> Contact </a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="main-contact">
+        <section class="contact-section">
+            <h2 class="proj-h2"> Contact<span>Me</span></h2>
+
+            <div class="cont-container">
+                <div class="cont-content">
+
+                    <div class="cont-card">
+                        <span class="cont-icon">
+                            <i class="ri-map-pin-line"></i>
+                        </span>
+                        <div>
+                            <h3 class="cont-title">Address</h3>
+                            <p class="cont-data">K-56, Awas Vikas-01, Kalyanpur, Kanpur</p>
+                        </div>
+                    </div>
+
+                    <div class="cont-card">
+                        <span class="cont-icon">
+                            <i class="ri-user-3-line"></i>
+                        </span>
+                        <div>
+                            <h3 class="cont-title">Freelance</h3>
+                            <p class="cont-data">Available Right Now</p>
+                        </div>
+                    </div>
+
+                    <div class="cont-card">
+                        <span class="cont-icon">
+                            <i class="ri-mail-line"></i>
+                        </span>
+                        <div>
+                            <h3 class="cont-title">Email</h3>
+                            <p class="cont-data">thakuralphapc@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="cont-card">
+                        <span class="cont-icon">
+                            <i class="ri-phone-line"></i>
+                        </span>
+                        <div>
+                            <h3 class="cont-title">Phone</h3>
+                            <p class="cont-data">+91 94121-67992</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form class="cont-form">
+                    <div class="cont-group">
+
+                        <div class="cont-form-div">
+                            <label class="cont-label" for="">
+                                Your Full Name <b>--></b>
+                            </label> 
+                            <input type="text" class="cont-name" />
+                        </div>
+
+                        <div class="cont-form-div">
+                            <label class="cont-label" for="">
+                                Your Email Address <b>--></b>
+                            </label> 
+                            <input type="email" class="cont-name" />
+                        </div>
+
+                        <div class="cont-form-div">
+                            <label class="cont-label" for="">
+                                Your Subject <b>--></b>
+                            </label> 
+                            <input type="text" class="cont-name" />
+                        </div>
+
+                        <div class="cont-form-div">
+                            <label class="cont-label-msg" for="">
+                                Your Message <b>--></b>
+                            </label> 
+                            <textarea class="cont-msg"></textarea>
+                        </div>
+                        <button class="cont-btn">
+                            <b>Send Message</b>
+                            <span class="btn-msg-icon">
+                                <i class="ri-send-plane-2-line"></i>
+                            </span>
+                        </button>
+
+                        <p class="cont-msg-p">
+                            All input fields are mandatory
+                        </p>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        function hamburg() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+
+        function cancel() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
+    
+</body>
+</html>
